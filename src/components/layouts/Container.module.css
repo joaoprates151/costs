@@ -1,0 +1,27 @@
+.container
+{
+    width: 90vw;  /*---------------------mudar------------------------*/
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; /*centraliza na tela*/
+    flex-wrap: wrap; /*Quando os elementos filhos ultrapassarem a largura (1200) eles vão pra baixo em uma nova linha*/
+}
+
+.min-height
+{
+    min-height: 75vh;
+    justify-content: center;
+    text-align: justify;
+}
+
+.start
+{
+    justify-content: flex-start; /*Coloca os conteúdos pro início*/
+}
+
+.column
+{
+    flex-direction: column;
+    justify-content: flex-start;
+}
